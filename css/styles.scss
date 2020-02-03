@@ -1,0 +1,147 @@
+body,html{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #030c1a;
+}
+
+@font-face {
+font-family: 'MocharyPersonal';
+src: url(../fonts/MocharyPersonal.ttf);
+}
+
+
+.up-web{
+	display:none;
+	padding:10px 15px 10px 15px;
+	background:#dc3545;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  border-radius: 50%;
+}
+
+#mainNav{
+  background-color: #04131b;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  .navbar-brand{
+    font-weight: 500;
+  }
+  a{
+    color: white;
+  }
+  .navbar-toggler{
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    border: 1px solid #fff;
+  }
+}
+
+.intro-header{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  background: url("../img/intro-ng.jpg") no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .intro-body{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .brand-heading{
+    font-family: 'MocharyPersonal';
+    font-size: 80px;
+    padding: 5px 0;
+  }
+  .intro-text{
+    font-size: 18px;
+  }
+}
+
+.datos-section,.bases-section,.concursos-section{
+  padding-top: 170px;
+  padding-bottom: 120px;
+}
+.premios-section{
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.contacto-section{
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.bases-section{
+  background: url("../img/descargar-bg.jpg") no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .textos-bases{
+    padding: 50px  60px;
+    span{
+      font-size: 11px;
+    }
+  }
+}
+.concursos-section{
+  p{
+    font-size: 11px;
+  }
+}
+
+.concursos-section{
+  background: url("../img/contacto-bg.jpg") no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  p{
+    font-size: 16px;
+  }
+}
+
+#premios{
+
+  .card{
+    margin-top: 10px;
+    background-color: rgba(0,0,255,0);
+    .card-body{
+      background-color: #092b3d;
+    }
+    #card-infantil:hover{
+      background-color: #145f9e;
+    }
+    #card-junior:hover{
+      background-color: #197e52;
+    }
+    #card-juvenil:hover{
+      background-color: #9e1428;
+    }
+  }
+}
+
+#datos{
+  h2{
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+}
+
+footer{
+	background-color: #020b10;
+	padding: 8px 0;
+	width: 100%;
+	bottom: 0;
+	color: #e3e3e3;
+}
